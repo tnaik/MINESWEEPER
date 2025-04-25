@@ -87,7 +87,6 @@ export default function Home() {
             {/* AI Assistant (conditionally rendered) */}
             {aiEnabled && (
               <AIAssistant 
-                gameState={null} // This will be updated by the Board component
                 onSuggestMove={handleSuggestedMove}
                 enabled={aiEnabled}
               />

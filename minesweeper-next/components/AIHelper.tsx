@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Cell as CellType } from '../lib/types';
 
 interface AIHelperProps {
